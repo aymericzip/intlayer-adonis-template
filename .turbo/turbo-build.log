@@ -1,0 +1,6 @@
+$ tsc
+start/kernel.ts(3,19): error TS2322: Type 'Promise<{ default: typeof import("/Users/aymericpineau/Documents/intlayer_/packages/adonis-intlayer/dist/types/middleware"); }>' is not assignable to type 'Promise<{ default: MiddlewareAsClass; }>'.
+  Type '{ default: typeof import("/Users/aymericpineau/Documents/intlayer_/packages/adonis-intlayer/dist/types/middleware"); }' is not assignable to type '{ default: MiddlewareAsClass; }'.
+    Types of property 'default' are incompatible.
+      Type 'typeof import("/Users/aymericpineau/Documents/intlayer_/packages/adonis-intlayer/dist/types/middleware")' is not assignable to type 'MiddlewareAsClass'.
+        Type 'typeof import("/Users/aymericpineau/Documents/intlayer_/packages/adonis-intlayer/dist/types/middleware")' provides no match for the signature 'new (...args: any[]): { handle: (ctx: HttpContext, next: NextFn, args?: any) => any; }'.
