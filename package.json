@@ -10,8 +10,8 @@
   },
   "dependencies": {
     "@adonisjs/core": "6.19.3",
-    "adonis-intlayer": "latest",
-    "intlayer": "latest"
+    "adonis-intlayer": "8.3.0-canary.4",
+    "intlayer": "8.3.0-canary.4"
   },
   "devDependencies": {
     "@types/node": "25.0.10",
