@@ -10,11 +10,11 @@
   },
   "dependencies": {
     "@adonisjs/core": "6.19.3",
-    "adonis-intlayer": "latest",
-    "intlayer": "latest"
+    "adonis-intlayer": "9.0.0-canary.12",
+    "intlayer": "9.0.0-canary.12"
   },
   "devDependencies": {
     "@types/node": "25.0.10",
-    "typescript": "5.9.3"
+    "typescript": "6.0.2"
   }
 }
