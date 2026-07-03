@@ -14,7 +14,7 @@
     "intlayer": "9.0.0-canary.12"
   },
   "devDependencies": {
-    "@types/node": "25.0.10",
-    "typescript": "6.0.2"
+    "@types/node": "26.1.0",
+    "typescript": "6.0.3"
   }
 }
